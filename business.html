@@ -1,0 +1,171 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Nest Digital</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <style>
+#logo {
+  position: fixed;
+  top: 1cm;
+  left: 1cmx;
+  width: 30px; /* small size */
+}
+
+
+        .service-box {
+            transition: all 0.3s ease;
+            height: 100%;
+            border: none;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .service-box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+        }
+        
+        .service-icon {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .page-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 80px 0;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <img src="C:/Users/DELL/Pictures/New folder/hmmm.png">
+    <!-- Navigation (Same as index.html) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Nest Digital</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="business.html">Business</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold">Our Business Services</h1>
+            <p class="lead">Explore our comprehensive range of IT solutions</p>
+        </div>
+    </div>
+
+    <!-- Services Listing -->
+    <div class="container mb-5">
+        <div class="row g-4">
+            <!-- Service 1: IT Services -->
+            <div class="col-lg-3 col-md-6">
+                <a href="service1.html" class="text-decoration-none">
+                    <div class="card service-box h-100 text-center p-4">
+                        <div class="service-icon text-primary">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3 class="card-title">IT Services</h3>
+                        <p class="card-text">
+                            Comprehensive IT solutions including network management, 
+                            cybersecurity, and technical support for businesses.
+                        </p>
+                        <div class="mt-3">
+                            <span class="btn btn-primary">View Details →</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Service 2: Digital Marketing -->
+            <div class="col-lg-3 col-md-6">
+                <a href="service2.html" class="text-decoration-none">
+                    <div class="card service-box h-100 text-center p-4">
+                        <div class="service-icon text-success">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h3 class="card-title">Digital Marketing</h3>
+                        <p class="card-text">
+                            Boost your online presence with SEO, social media marketing, 
+                            content strategy, and PPC campaigns.
+                        </p>
+                        <div class="mt-3">
+                            <span class="btn btn-success">View Details →</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Service 3: Consulting -->
+            <div class="col-lg-3 col-md-6">
+                <a href="service3.html" class="text-decoration-none">
+                    <div class="card service-box h-100 text-center p-4">
+                        <div class="service-icon text-warning">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="card-title">Consulting</h3>
+                        <p class="card-text">
+                            Strategic business consulting, digital transformation, 
+                            and process optimization services.
+                        </p>
+                        <div class="mt-3">
+                            <span class="btn btn-warning">View Details →</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Service 4: Data Analysis -->
+            <div class="col-lg-3 col-md-6">
+                <a href="service4.html" class="text-decoration-none">
+                    <div class="card service-box h-100 text-center p-4">
+                        <div class="service-icon text-info">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <h3 class="card-title">Data Analysis</h3>
+                        <p class="card-text">
+                            Advanced data analytics, business intelligence, 
+                            and data visualization solutions.
+                        </p>
+                        <div class="mt-3">
+                            <span class="btn btn-info">View Details →</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2025 Nest Digital. All rights reserved.</p>
+            <p><a href="index.html" class="text-white">Home</a> | <a href="business.html" class="text-white">Services</a> | <a href="contact.html" class="text-white">Contact</a></p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Font Awesome for icons (CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous">
+</body>
+</html>
